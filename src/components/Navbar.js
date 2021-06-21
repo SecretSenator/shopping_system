@@ -10,19 +10,19 @@ const Navbar = () => {
             <div className='container'>
                 <div className='nav-container'>
                     <div className='left-nav'>
-                        <Link to='/'><h3>Shopping Cart System</h3></Link>
+                        <Link to='/shopping_system'><h3>Shopping Cart System</h3></Link>
                     </div>
                     <div className="nav-mobile">
-                        <Link to='/mobiles'><h3>Mobiles</h3></Link>
+                        <Link to='/shopping_system/mobiles'><h3>Mobiles</h3></Link>
                     </div>
                     <div className="nav-laptop">
-                        <Link to='/laptops'><h3>Laptops</h3></Link>
+                        <Link to='/shopping_system/laptops'><h3>Laptops</h3></Link>
                     </div>
                     <div className="nav-dress">
-                        <Link to='/dress'><h3>Dress</h3></Link>
+                        <Link to='/shopping_system/dress'><h3>Dress</h3></Link>
                     </div>
                     <div className='right-nav'>
-                        <Link to='/cart'>
+                        <Link to='/shopping_system/cart'>
                             <div className="cart">
                                 <BsFillBagFill style={{color : '#EA2027', fontSize:'30px'}}/>
                                 <span>{totalItems}</span>

@@ -16,11 +16,11 @@ const App = () => {
     <Router>
         <Provider store={store}>
           <Navbar/>
-        <Route path='/' exact component={Home} />
-        <Route path='/cart' exact component={Cart}/>
-        <Route path='/mobiles' exact component={Mobiles}/>
-        <Route path='/laptops' exact component={Laptops}/>
-        <Route path='/dress' exact component={Dress}/>
+        <Route path='/shopping_system' exact component={Home} />
+        <Route path='/shopping_system/cart' exact component={Cart}/>
+        <Route path='/shopping_system/mobiles' exact component={Mobiles}/>
+        <Route path='/shopping_system/laptops' exact component={Laptops}/>
+        <Route path='/shopping_system/dress' exact component={Dress}/>
         </Provider>
         
     </Router>

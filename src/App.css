@@ -122,9 +122,14 @@
 
 
 @media (max-width: 768px){
+  .h3{
+    font-size: 10px;
+  }
   .container{
     width: 100%;
     padding: 0px 30px;
+    font-size: 10px;
+    display:flex;
   }
   .col-4{
     width:50%;
@@ -145,7 +150,11 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
+  .nav-container{
+    display: flex;
+    align-items: center;
+  }
   .col-4{
     width:100%;
   }

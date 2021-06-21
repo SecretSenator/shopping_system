@@ -15,8 +15,8 @@ const Dress = () => {
                             return(
                                 <div className="col-4" key={product.id}>
                                     <div className="product">
-                                        <div className="product-img">
-                                            <img src={product.photo} alt="" />
+                                        <div className="product-img" style={{display: 'flex', justifyContent:'center',alignItems:'center'}}>
+                                            <img src={product.photo} alt="" style={{ width: '10rem',  height: '20rem',marginBottom:'0px'}}/>
                                         </div>
                                         <div className="product-name">
                                             {product.p_name}

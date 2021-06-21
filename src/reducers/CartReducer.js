@@ -11,6 +11,7 @@ const CartValue=(state=initialState,action)=>{
                           const tprice=product.price + state.totalPrice;
                           const titems=state.totalQuantity+1;
                           console.log(state)
+                          product.id= new Date().getTime().toString();
                           return {...state,products:[...state.products,product],totalPrice:tprice,totalQuantity:titems}
         
         case 'remove'   : 
